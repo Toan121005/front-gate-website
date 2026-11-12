@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front Gate – Thai Food Heritage</title>
+  <!-- Tailwind CSS CDN for fast styling without a separate CSS file -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- 1. HEADER: Top navigation bar -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-red-600">Front Gate</a>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#dishes" class="hover:text-red-600">Dishes</a>
+        <a href="#story" class="hover:text-red-600">Our Story</a>
+        <a href="#visit" class="hover:text-red-600">Visit</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 2. MAIN CONTENT -->
+  <main>
+    <!-- Hero Section: Main banner -->
+    <section class="bg-green-800 text-white py-16 text-center">
+      <div class="max-w-3xl mx-auto px-4">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">Muak Lek Traditional Thai Food</h1>
+        <p class="text-lg mb-6">Five signature dishes and stories from the family restaurant near the university gate.</p>
+        <a href="#dishes" class="bg-yellow-400 text-gray-900 px-6 py-3 rounded font-semibold hover:bg-yellow-300">View Menu</a>
+      </div>
+    </section>
+
+    <!-- Dishes Section: List of dishes -->
+    <section id="dishes" class="py-16 max-w-5xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6 text-center">Five Core Dishes</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- Dish Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow border border-gray-100">
+          <h3 class="text-xl font-bold text-red-600">Pad Thai (ผัดไทย)</h3>
+          <p class="mt-2 text-gray-600">Traditional stir-fried rice noodles with rich flavors.</p>
+        </div>
+        <!-- Dish Card 2 -->
+        <div class="bg-white p-6 rounded-lg shadow border border-gray-100">
+          <h3 class="text-xl font-bold text-red-600">Pad Kra Pao (ผัดกะเพรา)</h3>
+          <p class="mt-2 text-gray-600">Spicy stir-fried meat with holy basil served over rice.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section: Family background & heritage -->
+    <section id="story" class="bg-white py-16 border-t border-gray-100">
+      <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+        <!-- Image placeholder -->
+        <div class="bg-green-100 h-64 rounded-lg flex items-center justify-center text-green-800 font-medium">
+          [Family Kitchen Photo]
+        </div>
+        <!-- Story text -->
+        <div>
+          <h2 class="text-2xl font-bold mb-4">Our Story</h2>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            For over 35 years, our family has cooked traditional Thai dishes right outside the university front gate. 
+            These recipes have been passed down from generation to generation at the family kitchen table.
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            Every dish is prepared fresh using local ingredients from Muak Lek to give students and visitors a taste of home.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit Section: Location information -->
+    <section id="visit" class="bg-gray-100 py-12">
+      <div class="max-w-5xl mx-auto px-4 text-center">
+        <h2 class="text-2xl font-bold mb-2">Visit the Restaurant</h2>
+        <p class="text-gray-700">Location: Near AIU Gate, Muak Lek, Saraburi.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 3. FOOTER -->
+  <footer class="bg-gray-900 text-white text-center py-6 text-sm">
+    <p>IT363 Project – Front Gate Website © 2026</p>
+  </footer>
+
+</body>
+</html>
